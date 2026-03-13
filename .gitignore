@@ -1,0 +1,109 @@
+# 临时文件和系统文件
+.DS_Store
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+*.pid
+
+# 日志文件
+logs/
+*.log
+
+# 环境配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 打包文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 媒体文件（除了二维码）
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.mp3
+*.wav
+
+# 数据文件（除了必要文档）
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.pkl
+*.pickle
+
+# 文档文件（除了README和示例数据说明）
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+
+# 我们的脚本文件（可选不上传）
+upload_to_git.sh
+copy_qrcode.sh
+list_files_detailed.sh
+GIT_UPLOAD_GUIDE.md
+check_files.sh
+list_files.txt
+
+# 特定排除（如果需要）
+# 公众号文章_Python分析银行股分红.md  # 这个要上传，所以不加
+# qrcode.jpg  # 这个要上传，所以不加
